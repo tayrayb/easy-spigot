@@ -25,6 +25,8 @@ Prerequisites Linux :
 Prerequisites OSX/MacOS:
 * Java
 
+You can clone the repo here to get started right away! ---------> [Easy-Spigot](https://github.com/tayrayb/easy-spigot)
+
 Execute start.sh in your terminal/git bash to get started and follow instructions.
 If the script wont execute under OSX or Linux, run the command below:
 
