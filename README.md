@@ -1,2 +1,40 @@
-# easy-spigot
-Easy bash menu for building and running a spigot server
+# Easy-Spigot script for Spigot
+
+![Spigot Logo](https://static.spigotmc.org/img/spigot.png)
+
+Spigot is a custom high performance Minecraft server. It is compatible with all Bukkit plugins, and Spigot even builds the original Craftbukkit server.
+
+**Reference links to Spigot**
+
+[Spigot](https://www.spigotmc.org/)
+
+[About Spigot](https://www.spigotmc.org/wiki/about-spigot/)
+
+[Installing Spigot](https://www.spigotmc.org/wiki/spigot-installation/)
+
+![Bash Windows](http://i.imgur.com/fGDLHTA.png)
+
+Prerequisites Windows:
+
+* Java
+* Git for Windows
+
+Prerequisites Linux :
+* Java (jdk8-openjdk)
+
+Prerequisites OSX/MacOS:
+* Java
+
+Execute start.sh in your terminal/git bash to get started and follow instructions.
+If the script wont execute under OSX or Linux, run the command below:
+
+```javascript
+chmod +x ./start.sh
+```
+The Spigot server is stored in the `Spigot` folder, where you can edit your settings to your hearts delight! Throw bukkit/spigot plugins into the `plugins` folder to add even more functionality to your server.
+
+I wrote this script to simplify the workflow of managing and building spigot. I would just like to share it to make everyone else's lives easier.
+
+Happy minecrafting!
+
+![](http://i.imgur.com/BgnJZRH.png)
