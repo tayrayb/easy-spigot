@@ -33,7 +33,7 @@ chmod +x ./start.sh
 ```
 The Spigot server is stored in the `Spigot` folder, where you can edit your settings to your hearts delight! Throw bukkit/spigot plugins into the `plugins` folder to add even more functionality to your server.
 
-I wrote this script to simplify the workflow of managing and building spigot. I would just like to share it to make everyone else's lives easier.
+I wrote this script to simplify the workflow of managing and building spigot. I would just like to share it to make everyone else's lives easier. Cheers!
 
 Happy minecrafting!
 
