@@ -59,5 +59,3 @@ read answer
     echo -e "Press enter to continue: \c"
     read input
 done
-
-#
