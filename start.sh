@@ -33,7 +33,7 @@ read answer
     cd ..
     mv $(pwd)/bt/spigot*.jar $(pwd)/spigot/spigot.jar
     mv $(pwd)/bt/craftbukkit*.jar $(pwd)/craftbukkit/craftbukkit.jar ;;
-    4) cd $(pwd)/spigot ;
+    4) cd spigot ;
     if [ -f eula.txt ]
     then
       echo "EULA text file exists and server should start!" ; sleep 2
