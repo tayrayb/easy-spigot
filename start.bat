@@ -80,6 +80,7 @@ if exist eula.txt (
 cls
 java -Xmx1G -jar spigot.jar
 pause
+cls
 goto z
 
 :5
@@ -96,6 +97,7 @@ if exist eula.txt (
 cls
 java -Xmx1G -jar craftbukkit.jar
 pause
+cls
 goto z
 
 :q
