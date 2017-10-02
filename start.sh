@@ -42,7 +42,7 @@ read answer
       echo "eula=true" >> ./eula.txt
     fi ;
     java -Xmx1G -jar spigot.jar ;;
-    5) cd $(pwd)/craftbukkit ;
+    5) cd craftbukkit ;
     if [ -f eula.txt ]
     then
       echo "EULA text file exists and server should start!" ; sleep 2
