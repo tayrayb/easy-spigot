@@ -25,12 +25,15 @@ Prerequisites Linux :
 Prerequisites OSX/MacOS:
 * Java
 
-Execute start.sh in your terminal/git bash to get started and follow instructions.
+Execute start.sh in your terminal to get started and follow instructions.
 If the script wont execute under OSX or Linux, run the command below:
 
 ```javascript
 chmod +x ./start.sh
 ```
+
+On Windows, simply run the `start.bat` file!
+
 The Spigot server is stored in the `Spigot` folder, where you can edit your settings to your hearts delight! Throw bukkit/spigot plugins into the `plugins` folder to add even more functionality to your server.
 
 I wrote this script to simplify the workflow of managing and building spigot. I would just like to share it to make everyone else's lives easier. Cheers!
