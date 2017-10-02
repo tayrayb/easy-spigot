@@ -29,6 +29,7 @@ cls
 if exist %cd%\bt\BuildTools.jar (
   echo BuildTools is in place and ready to build!
   timeout /t 3 /nobreak
+  cls
   ) else (
     echo BuildTools is missing and will download!
     timeout /t 3 /nobreak
@@ -55,11 +56,13 @@ if exist %cd%\bt\BuildTools.jar (
     cls
     %cd%/bin/curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
     )
+cls
 cd %cd%\bt
 java -jar BuildTools.jar
 cd ..
 move %cd%\bt\spigot*.jar %cd%\spigot\spigot.jar
 move %cd%\bt\craftbukkit*.jar %cd%\bt\craftbukkit.jar
+cls
 pause
 goto z
 
