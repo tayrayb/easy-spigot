@@ -60,8 +60,8 @@ cls
 cd %cd%\bt
 java -jar BuildTools.jar
 cd ..
-move %cd%\bt\spigot*.jar %cd%\spigot\spigot.jar
-move %cd%\bt\craftbukkit*.jar %cd%\craftbukkit\craftbukkit.jar
+move /y %cd%\bt\spigot*.jar %cd%\spigot\spigot.jar
+move /y %cd%\bt\craftbukkit*.jar %cd%\craftbukkit\craftbukkit.jar
 cls
 pause
 goto z
