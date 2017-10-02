@@ -76,6 +76,7 @@ if exist eula.txt (
     echo setting EULA to TRUE!
     timeout /t 3 /nobreak
     echo eula=true > eula.txt
+    java -Xmx1G -jar spigot.jar
     )
 pause
 goto z
@@ -90,6 +91,7 @@ if exist eula.txt (
     echo setting EULA to TRUE!
     timeout /t 3 /nobreak
     echo eula=true > eula.txt
+    java -Xmx1G -jar craftbukkit.jar
     )
 pause
 goto z
