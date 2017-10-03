@@ -1,7 +1,7 @@
 @echo off
 :z
 echo ====================================
-echo = Welcome to Easy-Bash for Spigot! =
+echo = Welcome to Easy-CMD for Spigot! =
 echo ====================================
 echo Enter 1 to download and check BuildTools:
 echo Enter 2 to download latest BuildTools:

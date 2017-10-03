@@ -16,14 +16,13 @@ Spigot is a custom high performance Minecraft server. It is compatible with all 
 
 Prerequisites Windows:
 
-* Java
-* Git for Windows
+* Java 8
 
 Prerequisites Linux :
 * Java (jdk8-openjdk)
 
 Prerequisites OSX/MacOS:
-* Java
+* Java 8
 
 Execute start.sh in your terminal to get started and follow instructions.
 If the script wont execute under OSX or Linux, run the command below:
@@ -36,7 +35,7 @@ On Windows, simply run the `start.bat` file!
 
 The Spigot server is stored in the `Spigot` folder, where you can edit your settings to your hearts delight! Throw bukkit/spigot plugins into the `plugins` folder to add even more functionality to your server.
 
-I wrote this script to simplify the workflow of managing and building spigot. I would just like to share it to make everyone else's lives easier. Cheers!
+I wrote this script to simplify the workflow of managing and building Spigot and Craftbukkit from source. I would just like to share it to make everyone else's lives easier. Cheers!
 
 Happy minecrafting!
 
