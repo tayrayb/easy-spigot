@@ -17,7 +17,7 @@ Spigot is a custom high performance Minecraft server. It is compatible with all 
 Prerequisites Windows:
 
 * Java 8
-* Git For Windows
+* Git For Windows: [Download](https://git-scm.com/download/win)
 
 Prerequisites Linux :
 * Java (jdk8-openjdk)
