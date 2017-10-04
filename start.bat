@@ -68,6 +68,7 @@ goto z
 
 :4
 cls
+set /p G==Enter GB of memory to allocate to server:
 cd %cd%\spigot
 if exist eula.txt (
   echo EULA text file exists and server should start!
@@ -78,7 +79,7 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
-java -Xmx1G -jar spigot.jar
+java -Xmx%G%G -jar spigot.jar
 pause
 cls
 goto z
@@ -95,7 +96,7 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
-java -Xmx2G -jar craftbukkit.jar
+java -Xmx1G -jar craftbukkit.jar
 pause
 cls
 goto z
