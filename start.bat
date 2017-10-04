@@ -95,7 +95,7 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
-java -Xmx1G -jar craftbukkit.jar
+java -Xmx2G -jar craftbukkit.jar
 pause
 cls
 goto z
