@@ -1,4 +1,6 @@
 @echo off
+set GIT_PATH=C:\Program Files\Git
+
 :z
 echo ====================================
 echo = Welcome to Easy-CMD for Spigot! =
@@ -58,11 +60,11 @@ if exist %cd%\bt\BuildTools.jar (
     )
 cls
 cd %cd%\bt
-java -jar BuildTools.jar
+"%GIT_PATH%\bin\sh.exe" --login -i -c "java -jar BuildTools.jar"
 cd ..
+cls
 move /y %cd%\bt\spigot*.jar %cd%\spigot\spigot.jar
 move /y %cd%\bt\craftbukkit*.jar %cd%\craftbukkit\craftbukkit.jar
-cls
 pause
 goto z
 
