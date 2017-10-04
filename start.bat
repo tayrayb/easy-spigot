@@ -1,4 +1,6 @@
 @echo off
+set GIT_PATH=C:\Program Files\Git
+
 :z
 echo ====================================
 echo = Welcome to Easy-CMD for Spigot! =
@@ -58,17 +60,16 @@ if exist %cd%\bt\BuildTools.jar (
     )
 cls
 cd %cd%\bt
-java -jar BuildTools.jar
+"%GIT_PATH%\bin\sh.exe" --login -i -c "java -jar BuildTools.jar"
 cd ..
+cls
 move /y %cd%\bt\spigot*.jar %cd%\spigot\spigot.jar
 move /y %cd%\bt\craftbukkit*.jar %cd%\craftbukkit\craftbukkit.jar
-cls
 pause
 goto z
 
 :4
 cls
-set /p G==Enter GB of memory to allocate to server:
 cd %cd%\spigot
 if exist eula.txt (
   echo EULA text file exists and server should start!
@@ -79,7 +80,7 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
-java -Xmx%G%G -jar spigot.jar
+java -Xmx1G -jar spigot.jar
 pause
 cls
 goto z
