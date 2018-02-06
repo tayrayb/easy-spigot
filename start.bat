@@ -80,7 +80,8 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
-java -Xmx1G -jar spigot.jar
+cd ..
+java -Xmx1G -jar %cd%\spigot\spigot.jar
 pause
 cls
 goto z
@@ -97,7 +98,8 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
-java -Xmx1G -jar craftbukkit.jar
+cd ..
+java -Xmx1G -jar %cd%\craftbukkit\craftbukkit.jar
 pause
 cls
 goto z
