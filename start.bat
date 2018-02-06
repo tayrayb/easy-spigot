@@ -36,14 +36,14 @@ if exist %cd%\bt\BuildTools.jar (
     echo BuildTools is missing and will download!
     timeout /t 3 /nobreak
     cls
-    %cd%/bin/curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+    %cd%\bin\curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
   )
 cls
 goto z
 
 :2
 cls
-%cd%/bin/curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+%cd%\bin\curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 pause
 goto z
 
@@ -56,7 +56,7 @@ if exist %cd%\bt\BuildTools.jar (
     echo BuildTools is missing and will download!
     timeout /t 3 /nobreak
     cls
-    %cd%/bin/curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+    %cd%\bin\curl.exe -o %cd%\bt\BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
     )
 cls
 cd %cd%\bt
@@ -80,8 +80,8 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
+java -Xmx1G -jar spigot.jar
 cd ..
-java -Xmx1G -jar %cd%\spigot\spigot.jar
 pause
 cls
 goto z
@@ -98,8 +98,8 @@ if exist eula.txt (
     echo eula=true>eula.txt
     )
 cls
+java -Xmx1G -jar craftbukkit.jar
 cd ..
-java -Xmx1G -jar %cd%\craftbukkit\craftbukkit.jar
 pause
 cls
 goto z
