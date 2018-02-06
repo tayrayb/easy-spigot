@@ -41,7 +41,8 @@ read answer
       echo "Setting EULA to TRUE!" ; sleep 2
       echo "eula=true" >> ./eula.txt
     fi ;
-    java -Xmx1G -jar spigot.jar ;;
+    cd .. ;
+    java -Xmx1G -jar $(pwd)/spigot/spigot.jar ;;
     5) cd craftbukkit ;
     if [ -f eula.txt ]
     then
@@ -50,7 +51,8 @@ read answer
       echo "Setting EULA to TRUE!" ; sleep 2
       echo "eula=true" >> ./eula.txt
     fi ;
-    java -Xmx1G -jar craftbukkit.jar ;;
+    cd .. ;
+    java -Xmx1G -jar $(pwd)/craftbukkit/craftbukkit.jar ;;
     q) exit ;;
     *) echo -e "\n"
     echo -e "You selected an invalid option! \c" ;;
